@@ -1,7 +1,6 @@
 chrome.runtime.onMessage.addListener(
     function (request, sender) {
     if (request.action == "getSource") {
-        // var html = request.source.toString();
         $('#message').html(getLinks(request.source));
     }
 }
@@ -38,17 +37,11 @@ function downloadCheckedLinks(options) {
     window.close();
 }
 
-// downloadFile({
-//     filename: "foo.txt",
-//     url: "http://your.url/to/download"
-// });
-
 function createDownLoadsHTML(links) {
     var html = ["<ul>"];
     if (links.length > 0) {
         var cnt = 1;
         links.forEach(function (link) {
-            // console.log(link);
             var linkMatch = link.match(/(?:(?:https:\/\/files[\d].lynda.com)(?:\/[\w]+\/[\w]+\/[\w\d]+\/[\w\d_]+\/))([^\s\?]+)/i);
             var name = "";
             if (linkMatch != undefined || linkMatch != null) {
