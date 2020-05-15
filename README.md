@@ -1,7 +1,7 @@
 # Linkedin Learning Video Downloader
 
 
-## Scraping tool Chrome plugin to download Linkedin-learning's courses videos using Chrome browser.
+## Chrome plugin to download Linkedin-learning's courses videos using Chrome browser.
 
 
 ### Overview
