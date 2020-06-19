@@ -6,7 +6,7 @@
 
 ### Overview
 
-Please use this script for your own purposes.
+Please use this script for your own purposes. You will need an account.
 
 This plugin was written for educational usage only.
 
