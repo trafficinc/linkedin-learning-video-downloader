@@ -10,7 +10,6 @@ Please use this script for your own purposes. You will need an account.
 
 This plugin was written for educational usage only.
 
-Make sure your LinkedIn account is NOT protected with 2FA
 
 ### Install [You need a paid account to download videos]
 
