@@ -1,5 +1,6 @@
 # Linkedin Learning Video Downloader
 
+## ** Update, they now use HTTP streaming, so this no longer works :(
 
 ## Chrome plugin to download Linkedin learning's courses videos using Chrome browser.
 
